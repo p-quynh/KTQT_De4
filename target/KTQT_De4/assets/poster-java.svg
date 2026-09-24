@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Poster học Java Web</title><desc id="desc">Minh họa video Java Web</desc>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#143e66"/><stop offset="1" stop-color="#1765ab"/></linearGradient></defs>
+  <rect width="640" height="360" rx="24" fill="url(#g)"/><circle cx="320" cy="150" r="78" fill="#fff" opacity=".16"/>
+  <path d="M300 105l75 45-75 45z" fill="#fff"/><text x="320" y="290" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="38" font-weight="700">JAVA WEB</text>
+</svg>

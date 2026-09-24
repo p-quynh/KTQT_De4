@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+ <display-name>KTQT_De4</display-name>
+ <filter><filter-name>encoding</filter-name><filter-class>vn.iotstar.filter.CharacterEncodingFilter_24110316</filter-class></filter>
+ <filter-mapping><filter-name>encoding</filter-name><url-pattern>/*</url-pattern></filter-mapping>
+ <filter><filter-name>admin</filter-name><filter-class>vn.iotstar.filter.AdminFilter_24110316</filter-class></filter>
+ <filter-mapping><filter-name>admin</filter-name><url-pattern>/admin/*</url-pattern></filter-mapping>
+ <filter><filter-name>sitemesh</filter-name><filter-class>vn.iotstar.filter.SiteMeshFilter_24110316</filter-class></filter>
+ <filter-mapping><filter-name>sitemesh</filter-name><url-pattern>/*</url-pattern></filter-mapping>
+ <welcome-file-list><welcome-file>index.jsp</welcome-file></welcome-file-list>
+ <session-config><session-timeout>30</session-timeout><cookie-config><http-only>true</http-only></cookie-config><tracking-mode>COOKIE</tracking-mode></session-config>
+</web-app>

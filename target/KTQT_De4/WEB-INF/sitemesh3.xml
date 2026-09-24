@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+ <decorator-prefix></decorator-prefix>
+ <dispatch-mode>include</dispatch-mode>
+ <include-error-pages>false</include-error-pages>
+ <mapping path="/*" decorator="/decorators/main.jsp"/>
+ <mapping path="/admin/*" decorator="/decorators/admin.jsp"/>
+ <mapping path="/decorators/*" exclude="true"/>
+ <mapping path="/assets/*" exclude="true"/>
+ <mapping path="/index.jsp" exclude="true"/>
+</sitemesh>
